@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="todo-app">
+  <h1>todos</h1>
+  <div class="input-container">
+    <input type="text" id="new-todo" placeholder="What do you plan to do?" autofocus>
+    <button id="add-todo">Add</button>
+  </div>
+  <ul id="todo-list"></ul>
+  <div class="footer">
+    <span id="todo-count"></span>
+    <div class="filters">
+      <button data-filter="all" class="filter-btn">All</button>
+      <button data-filter="active" class="filter-btn">Active</button>
+      <button data-filter="completed" class="filter-btn">Completed</button>
+    </div>
+    <button id="clear-completed">Clear completed</button>
+  </div>
+  <button id="theme-toggle">Change Theme</button>
+</div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
